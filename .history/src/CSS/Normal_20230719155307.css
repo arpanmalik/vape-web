@@ -1,0 +1,10 @@
+/** @format */
+
+.Service_Slider_Container {
+  position: relative;
+  max-height: 550px;
+}
+
+.Service_Slider_Container .slick-arrow {
+  display: none !important;
+}

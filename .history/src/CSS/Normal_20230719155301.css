@@ -1,0 +1,9 @@
+/** @format */
+
+.Service_Slider_Container {
+  position: relative;
+}
+
+.Service_Slider_Container .slick-arrow {
+  display: none !important;
+}

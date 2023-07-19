@@ -1,0 +1,21 @@
+/** @format */
+
+.Banner_Slider_Container {
+  position: relative;
+}
+.Banner_Slider_Container .Banner_Slider .Main {
+    width: 100%;
+    height: 100%;
+}
+.Banner_Slider_Container .Banner_Slider .Main img{
+    width: 100%;
+    height: 100%;
+}
+.Banner_Slider_Container .slick-arrow {
+  display: none !important;
+}
+
+/* Homepage */
+.HomePage{
+    
+}

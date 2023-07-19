@@ -1,0 +1,36 @@
+import React, { useEffect, useRef, useState } from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+const BannerSlider = () => {
+
+
+  const settings = {
+    dots: false,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1500,
+  };
+
+  return (
+    <>
+      <div className="Service_Slider_Container">
+        <Slider {...settings} ref={sliderRef} className="Service_Slider">
+          <div className="Main">
+           <img src='https://demo.bestprestashoptheme.com/vaping/modules/novnivoslider/images/9ce1ccf9d4f214799df07ca900c1cfa02e597aa5_slide1-1.jpg' alt='' />
+          </div>
+          <div className="Main">
+           <img src='https://demo.bestprestashoptheme.com/vaping/modules/novnivoslider/images/6191c51aedda3818bb0f40cf24e9538e787ad956_slide1-2.jpg' alt='' />
+          </div>
+        </Slider>
+      </div>
+    </>
+  );
+};
+
+
+export default BannerSlider

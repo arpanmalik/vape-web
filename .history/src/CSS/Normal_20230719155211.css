@@ -1,0 +1,24 @@
+
+.Service_Slider_Container {
+    position: relative;
+    margin-top: 20px;
+  }
+  .Service_Slider_Container .Service_Slider .Main {
+    width: 421px !important;
+    height: 506px !important;
+    position: relative;
+    display: block !important;
+    margin: auto;
+  }
+  .Service_Slider_Container .Service_Slider .Main img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+  }
+  .Service_Slider_Container .slick-arrow {
+    display: none !important;
+  }
+  
