@@ -21,7 +21,7 @@ const Footer = () => {
                   <span>
                     <i className="fa-solid fa-location-dot"></i>
                   </span>
-                  <span> A-66, Sector 63 Rd, A Block, Noida, Uttar Pradesh 201301 </span>
+                  <span>Noi</span>
                 </li>
               </ul>
             </div>
