@@ -1,0 +1,7 @@
+/** @format */
+
+@media screen and (min-width: 1000) and (max-width: 1370px) {
+    body{
+        display: none;
+    }
+}

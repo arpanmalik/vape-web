@@ -1,0 +1,105 @@
+/** @format */
+
+@media screen and (min-width: 780px) and (max-width: 1000px) {
+  .dropdown-content-custome {
+    width: 930px !important;
+  }
+  .HomePage .Container .Banner_Two_Sec {
+    width: 100% !important;
+    max-width: 100% !important;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .HomePage .Container .Banner_Two_Sec .img-container {
+    width: 48% !important;
+  }
+  .HomePage .Container .Banner_Two_Sec .img-container img {
+    width: 100% !important;
+  }
+  .HomePage .Container .categories {
+    width: 100%;
+    max-width: 100%;
+  }
+  .products-container {
+    width: 100%;
+  }
+  .HomePage .Container .Banner_Img {
+    width: 100%;
+  }
+  .HomePage .Container .Blog-posts {
+    width: 100%;
+  }
+  .footer {
+    max-width: 1200px;
+    width: 100%;
+  }
+  .HomePage .Container .Heading-Container h2 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 780px) {
+  .Navbar {
+    display: none;
+  }
+  #header .container {
+    width: 100%;
+    padding-left: 0;
+  }
+  #header.header-1 {
+    width: 100%;
+    max-width: 100%;
+  }
+  #header.header-1 .header-center {
+    width: 100%;
+    padding: 0;
+  }
+  #header .w-login {
+    display: none;
+  }
+  #header.header-1 .header-center .three-sec-cont {
+    display: flex;
+    width: 100%;
+  }
+  #header.header-1 .header-center .three-sec-cont .left-cont {
+    display: none;
+  }
+  #header.header-1 .header-center .three-sec-cont .right-cont {
+    display: none;
+  }
+  #header.header-1 .header-center .three-sec-cont .mid-cont img {
+    max-width: 100px;
+    height: auto;
+  }
+  .fa-bars-staggered {
+    display: block;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .HomePage .Container {
+    width: 100%;
+  }
+  .HomePage .Container .Banner_Two_Sec {
+    display: block;
+    width: 100%;
+  }
+  .HomePage .Container .Banner_Two_Sec .img-container {
+    width: 100%;
+  }
+  .HomePage .Container .Banner_Two_Sec .img-container img {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .HomePage .Container .categories {
+    width: 100%;
+    display: block;
+  }
+  .HomePage .Container .categories .Item {
+    width: 100%;
+    border: none;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ededed;
+    
+  }
+}

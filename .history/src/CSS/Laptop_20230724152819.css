@@ -1,0 +1,10 @@
+/** @format */
+
+@media screen and (min-width: 1000px) and (max-width: 1370px) {
+  .dropdown-content-custome{
+    width: 930px !important;
+  }
+  .Banner_Two_Sec{
+    border: 1px solid red;
+  }
+}

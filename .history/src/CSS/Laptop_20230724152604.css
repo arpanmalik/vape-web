@@ -1,0 +1,7 @@
+/** @format */
+
+@media screen and (min-width: 1000px) and (max-width: 1370px) {
+  .dropdown-content-custome{
+    width: 900px !important;
+  }
+}

@@ -1,0 +1,19 @@
+/** @format */
+
+@media screen and (min-width: 1000px) and (max-width: 1370px) {
+  .dropdown-content-custome {
+    width: 930px !important;
+  }
+  .HomePage .Container .Banner_Two_Sec {
+    width: 100%  !important;
+    max-width: 100% !important;
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .HomePage .Container .Banner_Two_Sec .img-container {
+    width: % !important;
+   }
+   .HomePage .Container .Banner_Two_Sec  img {
+    width: 100% !important;
+   }
+}
