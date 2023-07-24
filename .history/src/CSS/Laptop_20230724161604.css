@@ -135,10 +135,13 @@
   }
   .products-selection .product-list-fiter {
     width: 100%;
-    padding-left: 10px;
+    display: none;
+  }
+  .products-container {
+    display: none;
+  }
+  .pagination {
+    display: none  !important;
   }
 
-  .BreadCrumb .container {
-    width: 100%;
-  }
 }

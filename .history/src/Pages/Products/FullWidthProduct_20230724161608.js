@@ -9,7 +9,7 @@ import Navbar from "../../Navbar/Navbar";
 const FullWidthProduct = () => {
   return (
     <>
-     <div >
+     <div style={{border : '1px solid red' , display : 'none'}}>
      <Navbar />
      <Breadcrumb title={'E-Liquid'} />
       <div className="container-width ">

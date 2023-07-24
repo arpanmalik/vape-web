@@ -120,7 +120,7 @@
     display: block;
     padding: 20px;
   }
-  .footer {
+  .footer{
     width: 100%;
   }
   .footer .footer-container {
@@ -129,16 +129,19 @@
   .footer .footer-container .footer-col {
     width: 100%;
   }
-  .container-width {
+  .container-width{
     width: 100%;
     max-width: 100%;
   }
   .products-selection .product-list-fiter {
     width: 100%;
-    padding-left: 10px;
+    display: none;
   }
-
-  .BreadCrumb .container {
-    width: 100%;
+  .products-container{
+    display: none;
+  }
+  .pagination{
+    display: none;
   }
 }
+

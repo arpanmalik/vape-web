@@ -135,10 +135,10 @@
   }
   .products-selection .product-list-fiter {
     width: 100%;
-    padding-left: 10px;
   }
 
-  .BreadCrumb .container {
-    width: 100%;
+  .BreadCrumb{
+    display: none;
   }
+
 }
